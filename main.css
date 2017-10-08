@@ -1,0 +1,40 @@
+.my-photo{
+    width: 200px;
+    
+    
+}
+
+
+@media screen and (min-width:769px){
+    .my-photo{
+        margin-bottom: -50px;
+    }
+    .card-body-detail{
+        padding-top: 50px;
+    }
+}
+
+body{
+    max-width: 1000px;
+    margin: 0 auto ;
+}
+
+.my-links{
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    color: gray;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    height: 40px;
+    width: 40px;
+}
+
+
+.card{
+    background-color:green;
+}
